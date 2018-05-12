@@ -1,0 +1,135 @@
+#homepage{
+  height: 100%;
+  background: url("./components/img/wbg67.jpg") center no-repeat;
+  background-size: cover;
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#loginpage,html{
+  height:100%;
+  background: url("./components/img/background.jpg") center no-repeat;
+  background-size: cover;
+}
+
+
+.App {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  left: 290px;
+  background-color: whitesmoke;
+  width: 60%;
+}
+.title{
+  font-weight: lighter;
+  margin-bottom: 30px;
+  position: relative;  
+  margin-left: auto;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-size: 22px;
+}
+.input1{
+background-color: transparent;
+border: 0;
+border-bottom: solid 2px #f16051;
+width: 30%;
+padding-bottom: 4px;
+color: black;
+font-weight: lighter;
+letter-spacing: 1px;
+margin-bottom: 30px;
+margin-right: 20px;
+font-size: 20px;
+}
+
+.input2{
+background-color: transparent;
+border: 0;
+border-bottom: solid 2px #f16051;
+width: 30%;
+padding-bottom: 4px;
+color: black;
+font-weight: lighter;
+letter-spacing: 2px;
+margin-bottom: 30px;
+margin-right: 20px;
+font-size: 20px;
+}
+.output{
+position: relative;
+transform: translate(-5%, -5%);
+}
+
+input[type="text"] { 
+  outline: none;
+}
+
+button {
+  border: 2;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: red;
+  color: #fff;
+  font-weight: 100;
+}
+
+
+/**********Login************/
+
+
+.form{
+  color: red;
+  }
+  .form-group{
+    position: relative;
+    left:20px;
+    margin: 0 auto;
+    background-color: red;
+  }
+  #exampleInputEmail1{
+    width: 20%;
+    position: absolute;
+    left: 550px;top:210px
+    
+  }
+  #exampleInputPassword1{
+    width: 20%;
+    position: absolute;
+    left: 550px;top: 280px;
+  }
+  #btn{
+    position: absolute;
+    left: 630px;top: 350px ;
+    width: 10%;
+  }
+  #label1{
+    position: absolute;
+    left: 550px;top:180px;
+  }
+  #label2{
+    position: absolute;
+    left: 550px;top:250px;
+  }
+  #srch-term{
+    width:20%;
+    position: absolute;
+    left: 540px;top:100px;
+  }
+  #btn1{
+    width: 10%;
+    position: absolute;
+    left: 1260px;top: 20px;
+  }
+  #searchbtn{
+    position: absolute;
+    left:820px;top:100px;
+  }
